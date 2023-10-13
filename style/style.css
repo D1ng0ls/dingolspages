@@ -1,0 +1,624 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #333333;
+}
+
+/*#F2F2F2*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    padding: 10px 0;
+}
+
+.c-logo {
+    margin: 0 40px;
+}
+
+.c-logo h3 {
+    font-weight: 800;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.c-logo, .c-menu {
+    width: 50%;
+}
+
+.c-menu ul {
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.c-menu ul>li {
+    list-style: none;
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.c-menu ul>li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.c-menu ul>li a:hover {
+    border-bottom: 1px solid #333333;
+}
+
+#btn-cta {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #333333;
+    color: #fff;
+    padding: 15px;
+    transition: 0.3s all;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none !important;
+    text-align: center;
+}
+
+#btn-cta:hover {
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #333333;
+    border-bottom: none;
+    transition: 0.3s all;
+}
+
+.c-home {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.c-conteudo-left, .c-conteudo-right {
+    width: 37%;
+}
+
+.c-conteudo-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.c-conteudo-left p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.c-conteudo-left button {
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    align-items: center;
+    margin: 20px 0;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.c-conteudo-left button:hover {
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #333333;
+    transition: 0.3s ease;
+}
+
+.c-conteudo-right img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.c-about {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.c-benefits, .c-benefits-description, .c-social, .view, .c-cta, .c-faq-conteudo {
+    width: 82%;
+}
+
+.c-benefits .c-bene-head {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.c-benes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit {
+    width: 30%;
+}
+
+.benefit img {
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid #333333;
+}
+
+.benefit h3 {
+    font-size: 24px;
+}
+
+.benefit p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.c-desc-bene {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bene1 {
+    margin-top: 150px;
+}
+
+.desc-left, .desc-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc-left h2, .desc-right h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.desc-left p, .desc-right p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.desc-left ol, .desc-right ol {
+    padding: 0 25px;
+}
+
+.desc-left ol>li, .desc-right ol>li{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.desc-right img, .desc-left img  {
+    width: 100%;
+}
+
+.c-socialproof {
+    margin: 100px 0;
+}
+
+.c-social, .view{
+    margin: auto;
+}
+
+.c-social-head h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.c-socialproof {
+    background-color: #fff;
+}
+
+.c-proofs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proof {
+    width: 27%;
+    padding: 20px;
+    border: 1px solid #eeeeeeee;
+    border-radius: 2px;
+    transition: all 0.1s;
+    background-color: #fff;
+}
+
+.proof:hover {
+    transform:scale(1.05,1.05);
+}
+
+.proof p {
+    line-height: 1.5;
+    margin: 0;
+    font-size: 18px;
+}
+
+.c-proof-person img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px #6d6d6d9a;
+    margin: 40px 0 20px;
+}
+
+.c-proof-person p {
+    font-weight: 600;
+}
+
+.c-overviewing {
+    padding: 50px 0;
+    background-color: #F2F2F2;
+}
+
+.c-overviewing-head h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.c-overview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps {
+    width: 30%;
+}
+
+.num-step {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 15px 20px;
+    border-radius: 50%;
+    border: 1px dashed #333333;
+}
+
+.steps h3 {
+    font-size: 24px;
+}
+
+.steps p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.c-cta {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-cta h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.c-cta button {
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 600;
+    margin: auto;
+    font-size: 16px;
+}
+
+.c-cta button:hover {
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #333333;
+    transition: 0.3s ease;
+}
+
+.c-faq {
+    padding: 50px 0 75px;
+    background-color: #F2F2F2;
+}
+
+.c-faq-head h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.c-faq-conteudo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq {
+    margin: auto;
+    width: 80%;
+}
+
+.faq-quest {
+    cursor: pointer;
+    border-bottom: 1px solid #6d6d6d9a;
+    padding: 10px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-quest:hover {
+    background-color: #9494941f;
+}
+
+.faq-quest svg{
+    margin-right: 20px;
+    transition: 0.2s all;
+}
+
+/*.faq-quest::after {
+    content: attr(h3)" + ";
+    transform: scale(1.5);
+    margin: 25px 0 0 auto;
+    float: inline-end;
+    padding-right: 20px;
+}*/
+
+.faq-quest h3 {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.quest-reposta {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s all ;
+}
+
+.quest-resposta-mostra {
+    height: auto;
+    transition: 0.2s all;
+    margin-bottom: 20px;
+}
+
+.roda svg {
+    transform: rotateZ(90deg);
+    transition: 0.2s all;
+}
+
+.quest-reposta p {
+    line-height: 1.5;
+    font-size: 18px;
+    padding:20px;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+footer h3 {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul>li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+footer ul>li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+footer ul>li a:hover {
+    text-decoration: underline;
+}
+
+footer ul>li img {
+    width: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.c-logo-foot {
+    margin-left: 40px;
+}
+
+.c-logo-foot h3 {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 18px;
+    align-self: center;
+}
+
+footer div:last-child {
+    margin-right: 40px;
+}
+
+@media (min-width: 1200px) {
+    .desc-left h2, .desc-right h2 {
+        font-size: 22px;
+    }
+    .desc-left p, .desc-right p {
+        font-size: 18px;
+    }
+    .desc-left ol>li, .desc-right ol>li{
+        font-size: 18px;
+    }
+    .c-desc-bene {
+        margin: 100px 0 50px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .faq {
+        width: 90%;
+    }
+    .c-conteudo-left h1 {
+        font-size: 40px;
+    }
+    .desc-left h2, .desc-right h2 {
+        font-size: 22px;
+    }
+    .desc-left p, .desc-right p {
+        font-size: 16px;
+    }
+    .desc-left ol>li, .desc-right ol>li{
+        font-size: 16px;
+    }
+    .c-desc-bene {
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .faq {
+        width: 100%;
+    }
+    .c-menu ul>li {
+        margin: 0 20px;
+    }
+    .c-conteudo-left h1, .c-bene-head h1, .c-bene-head h1, .c-social-head h1, .c-overviewing-head h1, .c-cta h1, .c-faq h1 {
+        font-size: 32px;
+    }
+    .c-conteudo-left p {
+        font-size: 16px;
+    }
+    .benefit h3 {
+        font-size: 20px;
+    }
+    .benefit p {
+        font-size: 16px;
+    }
+    .desc-left h2, .desc-right h2 {
+        font-size: 20px;
+    }
+    .desc-left p, .desc-right p {
+        font-size: 16px;
+    }
+    .desc-left ol>li, .desc-right ol>li{
+        font-size: 16px;
+    }
+    .c-desc-bene {
+        margin: 50px 0;
+    }
+    .c-desc-bene {
+        margin: 100px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .desc-left, .desc-right{
+        width: 100%;
+    }
+    .bene2 div:nth-child(1) {
+        order: 2;
+    }
+    .bene2 div:nth-child(2) {
+        order: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    .c-menu {
+        display: none;
+    }
+    .benefit {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .c-benes {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .c-proofs {
+        flex-direction: column;
+    }
+    .proof {
+        width: 90%;
+        padding: 20px;
+        border: 1px solid #eeeeeeee;
+        border-radius: 2px;
+        transition: all 0.1s;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .proof p {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .c-proof-person {
+        margin: 0;
+    }
+    .c-conteudo-left h1, .c-bene-head h1, .c-bene-head h1, .c-social-head h1, .c-overviewing-head h1, .c-cta h1, .c-faq h1 {
+        font-size: 26px;
+    }
+    .c-overview {
+        flex-direction: column;
+    }
+    .steps {
+        width: 100%;
+    }
+    .num-step {
+        margin: 20px 0 0;
+    }
+    .c-conteudo-right {
+        display: none;
+    }
+    .c-conteudo-left {
+        width: 82%;
+        background: url('../media/home.png') no-repeat;
+        background-size: 85%;
+        background-position: center bottom ;
+    }
+    .c-conteudo-left-text {
+        backdrop-filter: blur(6px);
+    }
+    .faq-quest h3 {
+        font-size: 18px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer h3, .c-logo-foot h3 {
+        display: block;
+        text-align: center;
+    }
+    .c-logo-foot, .about-pages {
+        margin: 0 !important;
+    }
+    .c-logo-foot, .info-social, .info-contact, .about-pages {
+        width: 50%;
+    }
+    .c-logo-foot {
+        margin-bottom: 20px !important;
+    }
+}
